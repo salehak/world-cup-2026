@@ -8,7 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-data/
 build/
 develop-eggs/
 dist/
@@ -218,7 +217,11 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Data Files
-.csv
-.json
-.xlsx
+# Data and generated outputs (not redistributed; see README for sources)
+data/
+outputs/
+*.csv
+*.xlsx
+
+# macOS
+.DS_Store
